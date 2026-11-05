@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-11-05T03:49:05.756Z",
+  "screenCount": 1,
+  "screens": {
+    "698d6b413aea43b3bdb4dfa0b64404fa": {
+      "screenId": "698d6b413aea43b3bdb4dfa0b64404fa",
+      "materialSymbolsRequired": false,
+      "sections": [],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Refresh Status",
+          "classes": [
+            "w-full",
+            "sm:w-auto",
+            "inline-flex",
+            "items-center",
+            "justify-center",
+            "px-6",
+            "py-2.5",
+            "rounded-lg",
+            "bg-indigo-600",
+            "hover:bg-indigo-700",
+            "text-white",
+            "font-medium",
+            "text-sm",
+            "shadow-sm",
+            "transition-colors",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-500",
+            "focus:ring-offset-2"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "4"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Refresh Status",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [],
+      "title": "Status Page - Status Utility"
+    }
+  }
+}
